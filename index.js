@@ -115,7 +115,7 @@ module.exports = {
                     'error',
                     {
                         'classes': 'always',
-                        'functions': 'never',
+                        'functions': 'always',
                         'keywords': 'never',
                     }
                 ],
