@@ -9,13 +9,13 @@
   "license": "ISC",
   "description": "",
   "peerDependencies": {
-    "eslint": ">=9.0.0"
+    "@stylistic/eslint-plugin-js": ">=2.9.0",
+    "eslint": ">=9.0.0",
+    "eslint-plugin-brace-rules": ">=0.1.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.12.0",
-    "@stylistic/eslint-plugin-js": "^2.9.0",
     "eslint": "^9.12.0",
-    "eslint-plugin-brace-rules": "^0.1.6",
     "eslint-plugin-react": "^7.37.1",
     "globals": "^15.11.0"
   }
