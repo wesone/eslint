@@ -85,7 +85,7 @@ module.exports = {
                     'error',
                     {
                         'skipBlankLines': false,
-                        'ignoreComments': true
+                        'ignoreComments': false
                     }
                 ],
                 'no-undef': 'off',
@@ -130,7 +130,7 @@ module.exports = {
                 '@stylistic/js/space-infix-ops': ['error', {'int32Hint': false}],
 
                 // React specific
-                'react/react-in-jsx-scope': 'off', // when using React v17 or later 
+                'react/react-in-jsx-scope': 'off', // when using React v17 or later
                 'react/prop-types': 'off'
             }
         }]
