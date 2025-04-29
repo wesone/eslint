@@ -1,5 +1,6 @@
 const pkg = require('./package.json');
 const braceRules = require('eslint-plugin-brace-rules');
+// since v4.0.0 stylistic supports esm only
 const stylisticJs = require('@stylistic/eslint-plugin-js');
 
 module.exports = {
